@@ -1,14 +1,19 @@
-# Java OOP: Rectangle Class Implementation
+# Java OOP Temelleri: Rectangle ve Stock Uygulamaları
 
-Bu proje, Java'da Nesne Yönelimli Programlama (OOP) temellerini pekiştirmek amacıyla geliştirilmiş bir konsol uygulamasıdır. Kahramanmaraş İstiklal Üniversitesi Yazılım Mühendisliği eğitimim kapsamında sınıf (class) ve nesne (object) yapılarını anlamak üzere tasarlanmıştır.
+Bu depo, Kahramanmaraş İstiklal Üniversitesi Yazılım Mühendisliği eğitimim kapsamında, Java'da Nesne Yönelimli Programlama (OOP) kavramlarını pratiğe dökmek için geliştirdiğim iki temel projeyi tek bir çatı altında toplamaktadır.
 
-## 📌 Proje Özeti
-Proje, geometrik bir dikdörtgeni temsil eden `Rectangle` sınıfını ve bu sınıfı test eden ana programı içerir. 
+## 📌 İçerik
 
-* **Özellikler (Data Fields):** Belirtilen genişlik (`width`) ve yükseklik (`height`) değerlerini tutar.
-* **Kurucular (Constructors):** Hem varsayılan (1x1) bir dikdörtgen hem de dışarıdan parametre alan özel boyutlu dikdörtgenler oluşturulabilir.
-* **Metotlar (Methods):** Nesnenin kendi değişkenlerini kullanarak matematiksel alan (`getArea()`) ve çevre (`getPerimeter()`) hesaplamalarını yapar.
+### 1. Dikdörtgen (Rectangle) Sınıfı
+Nesne oluşturma ve metot çağırma mantığını kavramak için tasarlanmıştır.
+* **İşlev:** Belirli genişlik ve yükseklik değerlerine sahip dikdörtgen nesneleri üretir.
+* **Yetenekler:** Oluşturulan nesnenin verilerini kullanarak alan (`getArea`) ve çevre (`getPerimeter`) hesaplamalarını yapar.
 
-## 🛠️ Kullanılan Teknolojiler
+### 2. Hisse Senedi (Stock) Sınıfı
+Gerçek dünya verilerini sınıflar aracılığıyla modellemek için tasarlanmıştır.
+* **İşlev:** Bir hisse senedinin borsa sembolünü, şirket adını ve günlük fiyatlarını (önceki gün kapanış ve anlık fiyat) tutar.
+* **Yetenekler:** Fiyat değişimini matematiksel olarak oranlayarak hissenin anlık değişim yüzdesini (`getChangePercent`) hesaplar.
+
+## 🛠️ Geliştirme Ortamı
 * Java
-* Nesne Yönelimli Programlama (OOP)
+* Apache NetBeans IDE
